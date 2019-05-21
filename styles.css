@@ -1,10 +1,10 @@
 body {
   margin: 0px;
   font-family: "Ubuntu Condensed", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
-.title-and-nav-wrapper {
+.logo-and-nav-wrapper {
 }
 
 .station-logo-bar {
@@ -14,15 +14,16 @@ body {
 }
 
 .station-logo-bar > img {
-    height: 95%;
+  height: 95%;
   padding: 5px;
 }
 
 .nav-bar {
-  height: 45px;
+  height: 30px;
   color: white;
   background-color: rgb(37, 69, 129);
   display: flex;
   align-items: center;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 5px 300px 5px 30px;
 }
