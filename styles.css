@@ -1,16 +1,28 @@
 body {
   margin: 0px;
-  font-family: "Brawler", serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1rem;
 }
 
 .title-and-nav-wrapper {
-  height: 100px;
-  background-color: cornflowerblue;
-  display: flex;
-  align-items: center;
 }
 
-.title-and-nav-wrapper > .station-logo-box > img{
-    background-color: green;
-    margin: 20%;
+.station-logo-bar {
+  height: 85px;
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+.station-logo-bar > img {
+    height: 95%;
+  padding: 5px;
+}
+
+.nav-bar {
+  height: 45px;
+  color: white;
+  background-color: rgb(37, 69, 129);
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
