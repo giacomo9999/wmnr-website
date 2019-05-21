@@ -4,26 +4,35 @@ body {
   font-size: 1.2rem;
 }
 
-.logo-and-nav-wrapper {
-}
-
-.station-logo-bar {
+.logo-bar {
   height: 85px;
   background-color: cornflowerblue;
-  padding: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.station-logo-bar > img {
-  height: 95%;
-  padding: 5px;
+.logo-container {
+  width: 75%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .nav-bar {
   height: 30px;
-  color: white;
   background-color: rgb(37, 69, 129);
+  padding: 15px;
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.nav-container {
+  color: white;
+  width: 75%;
+  display: flex;
   justify-content: space-between;
-  padding: 5px 300px 5px 30px;
+  align-items: center;
 }
