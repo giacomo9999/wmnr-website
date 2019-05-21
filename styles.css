@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  font-family: "Brawler", serif;
+}
+
+.title-and-nav-wrapper {
+  height: 100px;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+}
+
+.title-and-nav-wrapper > .station-logo-box > img{
+    background-color: green;
+    margin: 20%;
+}
