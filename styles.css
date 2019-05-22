@@ -6,7 +6,7 @@ body {
 
 .logo-bar {
   height: 85px;
-  background-color: cornflowerblue;
+  background-color: rgb(31, 53, 94);
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ body {
 
 .nav-bar {
   height: 30px;
-  background-color: rgb(37, 69, 129);
+  background-color: rgb(53, 84, 141);
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -38,11 +38,22 @@ body {
 }
 
 .nav-container a {
-  color: rgb(115, 157, 235);
+  color: rgb(154, 183, 236);
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .nav-container a:hover {
   color: white;
+  letter-spacing: 2px;
 }
 
+.hero-section {
+  margin: 0px;
+  background-image: url(./images/Mozart3.jpg);
+  height: 1000px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
