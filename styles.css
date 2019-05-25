@@ -1,3 +1,20 @@
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu Condensed", sans-serif;
+
+}
+
 body {
   margin: 0px;
   font-family: "Ubuntu Condensed", sans-serif;
@@ -48,25 +65,31 @@ body {
   letter-spacing: 2px;
 }
 
-.hero-section {
-  margin: 0px;
+.news-section {
   background-image: url(./images/Mozart3.jpg);
-  height: 1000px;
+  height: 1500px;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
-.hero-container {
-  margin: 30px;
-  height: 200px;
-  background-color: white;
-  width: 50%;
-  display: flex;
+.news-items-container {
+  width: 900px;
+  display: grid;
+  /* grid-template-columns: fr; */
+  background-color:  rgb(31, 53, 94);
   justify-content: center;
-  
+  align-items: normal;
+}
+
+.news-item {
+  height: auto;
+  padding: 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  background-color: white;
+  width: 600px;
 }
